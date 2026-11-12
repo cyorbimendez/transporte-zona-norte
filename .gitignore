@@ -1,0 +1,21 @@
+node_modules
+dist
+.DS_Store
+*.local
+.env
+
+.vercel
+
+# Build temporal del pre-renderizado (se borra solo)
+.ssr
+
+# Local caches, working files, and backups
+.pnpm-store/
+.codex-media/
+output/
+.claude/settings.local.json
+*.log
+
+# Local environment overrides
+.env.*
+!.env.example

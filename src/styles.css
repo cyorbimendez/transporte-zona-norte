@@ -1,0 +1,31 @@
+/* ============================================================
+   Casi todo el estilo vive en el tema de MUI (src/theme.js).
+   Aquí solo lo global que MUI no cubre.
+   ============================================================ */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* Mismo verde del encabezado: sin franja clara al estirar la página
+     en iOS. El body (CssBaseline) pone el fondo claro del contenido. */
+  background: #10462f;
+}
+
+img {
+  max-width: 100%;
+}
+
+:focus-visible {
+  outline: 3px solid #f2b10c;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}

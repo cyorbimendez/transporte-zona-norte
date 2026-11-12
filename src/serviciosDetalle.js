@@ -1,0 +1,47 @@
+export const serviciosDetalle = [
+  {
+    ruta: '/fletes-san-carlos', nombre: 'Fletes en San Carlos', carga: 'general',
+    titulo: 'Fletes de carga en San Carlos, desde Pital',
+    descripcion: 'Fletes de carga pesada desde Pital a Ciudad Quesada, Aguas Zarcas, la Zona Norte y todo Costa Rica. Cotice su ruta por WhatsApp al 8552 8204.',
+    resumen: 'Cajas, sacos, tarimas, materiales y cargas grandes. Nelson atiende su consulta y realiza el viaje, desde Pital, San Carlos, hacia la finca, la planta, la obra o la bodega.',
+    foto: '/img/carga-en-sacos.webp', alt: 'Camión de Transportes Treinta con carga en sacos en un camino de lastre',
+    tituloFoto: 'Carga en sacos', detalleFoto: 'El camión con sacos sobre la plataforma. El tipo de carga, su peso y los accesos se revisan al cotizar.',
+    incluye: ['Carga general en cajas, sacos o tarimas.', 'Recogida y entrega en la Zona Norte y viajes al resto del país.', 'Amarres y lona según lo que se transporte.'],
+    preparar: ['Lugar de recogida y lugar de entrega.', 'Qué lleva, peso aproximado y cantidad de cajas, sacos o tarimas.', 'Fecha deseada y cómo se cargará y descargará.'],
+    preguntas: [
+      { pregunta: '¿Hacen viajes dentro de San Carlos?', respuesta: 'Sí. Salimos desde Pital y atendemos Aguas Zarcas, Ciudad Quesada, Venecia, Florencia, La Fortuna y otros puntos de la Zona Norte. También viajamos a todo Costa Rica.' },
+      { pregunta: '¿Hacen mudanzas o entregas pequeñas?', respuesta: 'No hacemos mudanzas residenciales. El servicio está orientado a cargas grandes en camión tándem con plataforma. Cuéntenos qué necesita mover para confirmar si el camión es adecuado.' },
+      { pregunta: '¿Cuánto cuesta un flete?', respuesta: 'La cotización depende de la ruta, la carga, su peso y dimensiones, y las condiciones de carga y descarga. Envíe los detalles por WhatsApp; Nelson le confirma el precio y la fecha antes de acordar el viaje.' },
+    ],
+  },
+  {
+    ruta: '/transporte-pina-yuca', nombre: 'Transporte de piña y yuca', carga: 'agricola',
+    titulo: 'Transporte de piña y yuca desde San Carlos',
+    descripcion: 'Transporte de piña, yuca y tubérculos en cajas, jaulas o sacos desde Pital, San Carlos, a plantas y destinos nacionales. Cotice al 8552 8204.',
+    resumen: 'De la finca a la planta empacadora o al destino que necesite. Transportamos piña, yuca y otros tubérculos en cajas, jaulas o sacos, dentro de San Carlos y hacia todo Costa Rica.',
+    foto: '/img/carga-pina-carretera.webp', alt: 'Camión de Transportes Treinta transportando jaulas de piña por carretera',
+    tituloFoto: 'Piña en carretera', detalleFoto: 'Carga de piña en jaulas sobre el camión. Para coordinar su viaje, indique el empaque, la cantidad y el peso aproximado.',
+    incluye: ['Piña, yuca y tubérculos en cajas, jaulas o sacos; no a granel.', 'Viajes entre finca, planta empacadora y otros destinos nacionales.', 'Coordinación directa con Nelson para precio y fecha.'],
+    preparar: ['Producto y presentación: cajas, jaulas o sacos.', 'Cantidad y peso aproximado; una foto puede ayudar a revisar la carga.', 'Ubicación de la finca y la planta, accesos, fecha y medios de carga y descarga.'],
+    preguntas: [
+      { pregunta: '¿Llevan piña y yuca a granel?', respuesta: 'No. La carga agrícola se transporta en cajas, jaulas o sacos. Indique cómo está empacada y la cantidad al solicitar el viaje.' },
+      { pregunta: '¿Pueden recoger en una finca?', respuesta: 'Sí, sujeto a revisar el acceso del camión. Comparta la ubicación y las condiciones de entrada, carga y descarga para coordinar con Nelson.' },
+      { pregunta: '¿La fecha del cotizador reserva el camión?', respuesta: 'No. El cotizador prepara su consulta; Nelson confirma disponibilidad, precio y fecha por WhatsApp. También puede pedir una cotización sin tener fecha definida.' },
+    ],
+  },
+  {
+    ruta: '/transporte-maquinaria-materiales', nombre: 'Maquinaria y materiales', carga: 'maquinaria',
+    titulo: 'Transporte de maquinaria y materiales en San Carlos',
+    descripcion: 'Traslado de tractores, chapulines, retroexcavadoras y materiales de construcción desde Pital, San Carlos. Confirme medidas, carga y ruta al 8552 8204.',
+    resumen: 'Tractores, chapulines y retroexcavadoras hacia la finca o la obra. También llevamos block, cemento, varilla y tarimas con entrega en el proyecto o a domicilio, según las condiciones de acceso.',
+    foto: '/img/camion-7.webp', alt: 'Camión de Transportes Treinta con postes de concreto sobre la plataforma',
+    tituloFoto: 'Materiales sobre la plataforma', detalleFoto: 'El camión con postes de concreto. El peso, las medidas y los medios de carga y descarga se confirman para cada trabajo.',
+    incluye: ['Maquinaria: tractores, chapulines y retroexcavadoras, previa revisión de peso y medidas.', 'Materiales de construcción: block, cemento, varilla y tarimas.', 'Entrega en finca, obra o domicilio con acceso adecuado para el camión.'],
+    preparar: ['Tipo de máquina o material, peso, largo, ancho y alto.', 'Fotos de la carga y forma de subirla y bajarla del camión.', 'Origen, destino, acceso al sitio y fecha deseada.'],
+    preguntas: [
+      { pregunta: '¿Transportan cualquier tamaño de maquinaria?', respuesta: 'Se revisa cada caso según el peso, las medidas y la forma de cargar y descargar. La plataforma mide 7,70 × 2,45 m. Envíe las características antes de acordar el viaje.' },
+      { pregunta: '¿El flete incluye grúa o descarga?', respuesta: 'No dé por incluidos equipos de carga o descarga. Indique qué medios hay en ambos sitios para que Nelson confirme cómo se realizará el traslado y qué incluye la cotización.' },
+      { pregunta: '¿Pueden entregar materiales a domicilio?', respuesta: 'Sí. Llevamos materiales a la obra, la finca o la casa, sujeto a confirmar el acceso y la descarga. No hacemos mudanzas residenciales.' },
+    ],
+  },
+];

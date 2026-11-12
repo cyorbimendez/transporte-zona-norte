@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es-CR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="WjAJMsHXe9mwxGJnVgymn3Mefk66O1r4mL4u_UVDri0" />
+
+    <!--app-head-->
+    <!-- ↑ El build pone aquí el título, la descripción, el canonical, el
+         Open Graph de cada página y los datos estructurados (JSON-LD).
+         Salen de src/seo.js y src/config.js (scripts/prerender.mjs).
+         Nombre, teléfono y zona se editan en src/config.js, no aquí. -->
+
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta name="theme-color" content="#10462F" />
+    <meta name="format-detection" content="telephone=yes" />
+    <meta name="application-name" content="Transportes Treinta" />
+    <meta name="apple-mobile-web-app-title" content="Transportes Treinta" />
+
+    <!-- Open Graph (vista previa en WhatsApp y Facebook): lo que no
+         cambia entre páginas. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CR" />
+    <meta property="og:site_name" content="Transportes Treinta" />
+    <meta property="og:image" content="https://transportestreinta.com/img/og-treinta30.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Camión y logo de Transportes Treinta 30, transporte de carga desde San Carlos" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      onload="this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      />
+    </noscript>
+  </head>
+  <body>
+    <div id="root"><!--app-html--></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

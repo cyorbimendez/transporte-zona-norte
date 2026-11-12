@@ -1,0 +1,12 @@
+# Vercel construye el sitio en su servidor: solo necesita el código
+# (src, public, index.html, package.json, pnpm-lock.yaml, configs).
+# Todo lo demás es material de trabajo y solo hace más lenta la subida.
+node_modules
+dist
+output
+assets
+fotos-para-whatsapp
+sobre-nosotros
+*.zip
+.ssr
+.claude

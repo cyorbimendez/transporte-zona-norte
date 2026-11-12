@@ -1,0 +1,14 @@
+Poner aquí las fotos de los camiones con estos nombres exactos:
+
+  camion-1.jpg   (cabezal / plataforma)
+  camion-2.jpg   (camión de 5 t)
+  camion-3.jpg   (vagoneta)
+  og.jpg         (la mejor foto, 1200x630 px, es la que se ve al
+                  compartir el link por WhatsApp o Facebook)
+
+Antes de subirlas: bajarlas a máximo 1600 px de ancho y menos de
+300 KB cada una. Una foto de 4 MB del celular tarda una eternidad
+en datos móviles y el cliente se va antes de que cargue.
+
+Rápido, desde la terminal (si tiene ImageMagick):
+  magick original.jpg -resize 1600x -quality 78 camion-1.jpg
